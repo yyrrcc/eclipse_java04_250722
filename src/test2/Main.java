@@ -30,6 +30,8 @@ public class Main {
 		// 5번 문제 : 사각형 둘레
 		Rectangle rec1 = new Rectangle(10.5, 40);
 		rec1.circumference();
+		Rectangle rec2 = new Rectangle(7.9, 23.4);
+		rec2.circumference();
 
 		System.out.println("---------------------------------");
 
