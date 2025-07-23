@@ -4,7 +4,7 @@ package class1;
 public class Student {
 	// 클래스에는 멤버변수(필드), 생성자, 메서드 이렇게 들어간다
 
-	// 클래스에 소속된 변수 : 멤버변수, 필드, 속성
+	// 클래스에 소속된 변수 : 멤버변수 = 필드 = 속성 = 인스턴스 변수
 	String name;
 	int age;
 	String address;

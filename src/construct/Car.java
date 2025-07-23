@@ -24,4 +24,14 @@ public class Car {
 		engine.printEngine();
 	}
 
+	// engine이라는 변수는 Engine 클래스 타입의 객체. 반환형은 당연히 Engine 타입.
+	public Engine outputEngine() {
+		return engine;
+	}
+
+	// 반환값이 cars, 즉 String[] 이기 때문에 반환형도 마찬가지로 String[] 적어주면 된다.
+	public String[] outputCars() {
+		String[] cars = { "현대", "기아", "테슬라" };
+		return cars;
+	}
 }
