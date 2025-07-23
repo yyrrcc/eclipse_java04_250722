@@ -6,7 +6,7 @@ public class MovieMain {
 		Movie m1 = new Movie("해리포터", "판타지", 170);
 
 		boolean m1Time = m1.isLongMovie();
-		System.out.println(m1Time);
+		System.out.println("긴 영화인가요? " + m1Time);
 	}
 
 }

@@ -12,11 +12,14 @@ public class Movie {
 	}
 
 	public boolean isLongMovie() {
-		if (runtime >= 120) {
-			return true;
-		} else {
-			return false;
-		}
+//		if (runtime >= 120) {
+//			return true;
+//		} else {
+//			return false;
+//		}
+
+		// 더 간단함
+		return runtime >= 120;
 
 	}
 

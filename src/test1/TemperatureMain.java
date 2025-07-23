@@ -6,7 +6,7 @@ public class TemperatureMain {
 		Temperature temp1 = new Temperature(25);
 
 		double temp2 = temp1.toFahrenheit();
-		System.out.println(temp2);
+		System.out.println("화씨 온도: " + temp2);
 	}
 
 }
